@@ -15,6 +15,7 @@ namespace JupiterToys.PageObjects
             driver = Driver;
         }
 
+        // Wrote for dynamic changes in the shop page. Can add or remove products from the page. It won't affect to the tests
         public void FindAndClickBuyForItems(int times, string itemName)
         {
             var itemCount = GetCount(pnlProducts);

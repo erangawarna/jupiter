@@ -28,6 +28,8 @@ namespace JupiterToys.PageObjects
             Click(btnSubmit);
         }
 
+        // Only use mandatory fields
+        // Only email can have invalid data
         public void EnterMandatoryFields(string data)
         {
             Clear(txtForename);

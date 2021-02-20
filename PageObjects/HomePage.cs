@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 
 namespace JupiterToys.PageObjects
 {
+    // Top header panel considered as a part of home page instead of having another page objetc
     public class HomePage : BaseClass
     {
         By lnkHome = By.Id("nav-home");
